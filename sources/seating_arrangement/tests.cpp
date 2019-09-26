@@ -1,6 +1,10 @@
 #include "gtest/gtest.h"
 #include "seating_arrangement.h"
 
+using seating_arrangement::SeatType;
+using seating_arrangement::getSeatType;
+using seating_arrangement::getFacingSeatNumber;
+
 class SeatingArrangement : public ::testing::Test
 {
 public:
