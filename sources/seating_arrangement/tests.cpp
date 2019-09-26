@@ -24,3 +24,17 @@ TEST_F(SeatingArrangement, secondCompartment)
     expectSeatsMapped(5, 8);
     expectSeatsMapped(4, 9);
 }
+
+TEST_F(SeatingArrangement, thirdCompartment)
+{
+    expectSeatsMapped(15, 22);
+    expectSeatsMapped(14, 23);
+    expectSeatsMapped(13, 24);
+}
+
+TEST_F(SeatingArrangement, fourthCompartment)
+{
+    expectSeatsMapped(18, 19);
+    expectSeatsMapped(17, 20);
+    expectSeatsMapped(16, 21);
+}
