@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(./googletest)
 
-file(GLOB SRC_FILES sources/*.cpp)
+file(GLOB SRC_FILES sources/*/*.cpp)
 add_executable(kata ${SRC_FILES})
 target_include_directories(kata PUBLIC 
     ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR}
