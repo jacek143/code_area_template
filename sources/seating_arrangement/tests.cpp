@@ -1,9 +1,11 @@
 #include "gtest/gtest.h"
 #include "seating_arrangement.h"
 
-using seating_arrangement::SeatType;
-using seating_arrangement::getSeatType;
 using seating_arrangement::getFacingSeatNumber;
+using seating_arrangement::getSeatType;
+using seating_arrangement::SeatType;
+using seating_arrangement::solveProblem;
+using std::string;
 
 class SeatingArrangement : public ::testing::Test
 {
@@ -63,4 +65,11 @@ TEST_F(SeatingArrangement, aisleleSeat)
 {
     EXPECT_EQ(SeatType::AISLE, getSeatType(3));
     EXPECT_EQ(SeatType::AISLE, getSeatType(106));
+}
+
+TEST_F(SeatingArrangement, completeAnswer)
+{
+    EXPECT_EQ("48 WS", solveProblem(37));
+    EXPECT_EQ("58 AS", solveProblem(51));
+    EXPECT_EQ("89 MS", solveProblem(92));
 }

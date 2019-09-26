@@ -1,8 +1,11 @@
 #ifndef SEATING_ARRANGEMENT
 #define SEATING_ARRANGEMENT
 
+#include <string>
+
 namespace seating_arrangement
 {
+std::string solveProblem(unsigned seat_number);
 enum class SeatType
 {
     WINDOW,

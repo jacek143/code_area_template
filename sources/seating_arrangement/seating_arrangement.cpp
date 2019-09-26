@@ -1,6 +1,27 @@
 #include "seating_arrangement.h"
 
 using seating_arrangement::SeatType;
+using std::string;
+using std::to_string;
+
+string seating_arrangement::solveProblem(unsigned seat_number)
+{
+    string answer = to_string(getFacingSeatNumber(seat_number)) + " ";
+    SeatType seat_type = getSeatType(seat_number);
+    if (seat_type == SeatType::AISLE)
+    {
+        answer += "AS";
+    }
+    else if (seat_type == SeatType::MIDDLE)
+    {
+        answer += "MS";
+    }
+    else
+    {
+        answer += "WS";
+    }
+    return answer;
+}
 
 unsigned seating_arrangement::getFacingSeatNumber(unsigned seat_number)
 {
