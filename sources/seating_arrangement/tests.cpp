@@ -38,3 +38,25 @@ TEST_F(SeatingArrangement, fourthCompartment)
     expectSeatsMapped(17, 20);
     expectSeatsMapped(16, 21);
 }
+
+TEST_F(SeatingArrangement, windowSeat)
+{
+    EXPECT_EQ(SeatType::WINDOW, getSeatType(1));
+    EXPECT_EQ(SeatType::WINDOW, getSeatType(6));
+    EXPECT_EQ(SeatType::WINDOW, getSeatType(7));
+    EXPECT_EQ(SeatType::WINDOW, getSeatType(12));
+    EXPECT_EQ(SeatType::WINDOW, getSeatType(108));
+}
+
+TEST_F(SeatingArrangement, middleSeat)
+{
+    EXPECT_EQ(SeatType::MIDDLE, getSeatType(2));
+    EXPECT_EQ(SeatType::MIDDLE, getSeatType(5));
+    EXPECT_EQ(SeatType::MIDDLE, getSeatType(107));
+}
+
+TEST_F(SeatingArrangement, aisleleSeat)
+{
+    EXPECT_EQ(SeatType::AISLE, getSeatType(3));
+    EXPECT_EQ(SeatType::AISLE, getSeatType(106));
+}
