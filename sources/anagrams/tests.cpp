@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 #include "anagrams.h"
 
+using anagrams::getNumberOfDeletionsToMakeAnagrams;
 using std::string;
 
 TEST(Anagrams, alreadyAnagrams)

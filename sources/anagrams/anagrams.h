@@ -3,6 +3,9 @@
 
 #include <string>
 
+namespace anagrams
+{
 unsigned getNumberOfDeletionsToMakeAnagrams(std::string a, std::string b);
+}
 
 #endif

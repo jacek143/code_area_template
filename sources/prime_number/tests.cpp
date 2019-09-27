@@ -4,6 +4,7 @@
 
 using std::vector;
 using ::testing::ElementsAre;
+using prime_number::getPrimeNumbersTill;
 
 TEST(PrimeNumber, returnsNothingFor1)
 {

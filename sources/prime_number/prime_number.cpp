@@ -2,7 +2,7 @@
 
 using std::vector;
 
-vector<unsigned> getPrimeNumbersTill(unsigned n)
+vector<unsigned> prime_number::getPrimeNumbersTill(unsigned n)
 {
     vector<unsigned> primes;
     if (n >= 2)

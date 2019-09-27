@@ -3,6 +3,9 @@
 
 #include <vector>
 
+namespace prime_number
+{
 std::vector<unsigned> getPrimeNumbersTill(unsigned n);
+}
 
 #endif

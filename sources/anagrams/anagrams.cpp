@@ -4,7 +4,7 @@
 
 using std::string;
 
-unsigned getNumberOfDeletionsToMakeAnagrams(string a, string b)
+unsigned anagrams::getNumberOfDeletionsToMakeAnagrams(string a, string b)
 {
     unsigned deletions = 0;
     while (a.size() > 0)

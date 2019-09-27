@@ -4,7 +4,7 @@
 using std::reverse;
 using std::string;
 
-bool isPalindrome(string potential_palindrome)
+bool palindromic_string::isPalindrome(string potential_palindrome)
 {
     auto reversed = potential_palindrome;
     reverse(begin(reversed), end(reversed));

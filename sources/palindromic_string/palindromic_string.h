@@ -3,6 +3,9 @@
 
 #include <string>
 
+namespace palindromic_string
+{
 bool isPalindrome(std::string potential_palindrome);
+}
 
 #endif

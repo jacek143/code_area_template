@@ -2,6 +2,7 @@
 #include "palindromic_string.h"
 
 using std::string;
+using palindromic_string::isPalindrome;
 
 TEST(PalindromicString, signature)
 {
