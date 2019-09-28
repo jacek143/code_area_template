@@ -12,7 +12,7 @@ target_include_directories(kata PUBLIC
 target_link_libraries(kata gtest_main)
 
 # STATIC CHECK
-add_custom_target(lint COMMAND clang-tidy -p build ${SRC_FILES})
+add_custom_target(lint COMMAND clang-tidy --warnings-as-errors=* -p build ${SRC_FILES})
 
 # RUN UNIT TESTS
 add_custom_target(unit_tests ALL COMMAND ./kata)
