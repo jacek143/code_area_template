@@ -1,4 +1,3 @@
-mkdir -p build
+./cmake.sh
 cd build
-cmake ..
 make
