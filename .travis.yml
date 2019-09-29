@@ -1,8 +1,5 @@
 language: cpp
 
 script:
- - mkdir build
- - cd build
- - cmake ..
- - make lint
- - make unit_tests
+ - ./lint.sh
+ - ./unit_tests.sh
