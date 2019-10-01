@@ -1,5 +1,6 @@
 language: cpp
 
 script:
+ - ./format_check.sh
  - ./lint.sh
  - ./unit_tests.sh
