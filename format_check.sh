@@ -1,12 +1,18 @@
-CHECKED=sources/prime_number/prime_number.cpp
-FORMATTED=$(mktemp)
-clang-format $CHECKED > $FORMATTED
-RESULT=$(cmp $FORMATTED $CHECKED)
+IS_ANY_DIFF=false
+for CHECKED in $(find sources | grep '.cpp\|.h')
+do
+    FORMATTED=$(mktemp)
+    clang-format ${CHECKED} > ${FORMATTED}
+    DIFF=$(diff --unified --color='always' --label formatted ${FORMATTED} --label ${CHECKED} ${CHECKED})
+    if !(test -z "${DIFF}")
+    then
+        IS_ANY_DIFF=true
+        printf '%s\n' "${DIFF[@]}"
+    fi
+    rm ${FORMATTED}
+done
 
-if test -z "$RESULT" 
-then
-      exit 0
-else
-      echo $RESULT
-      exit 1
+if (${IS_ANY_DIFF})
+then 
+    exit 1
 fi
