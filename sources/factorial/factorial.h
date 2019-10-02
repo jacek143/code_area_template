@@ -1,8 +1,7 @@
 #ifndef FACTORIAL_H
 #define FACTORIAL_H
 
-namespace factorial
-{
+namespace factorial {
 unsigned computeFactorial(unsigned n);
 }
 

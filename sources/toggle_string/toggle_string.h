@@ -3,8 +3,7 @@
 
 #include <string>
 
-namespace toggle_string
-{
+namespace toggle_string {
 std::string toggleString(std::string input);
 }
 

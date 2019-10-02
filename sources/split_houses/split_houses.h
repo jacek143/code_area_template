@@ -3,8 +3,7 @@
 
 #include <string>
 
-namespace split_houses
-{
+namespace split_houses {
 std::string splitHouses(std::string house_placement);
 } // namespace split_houses
 

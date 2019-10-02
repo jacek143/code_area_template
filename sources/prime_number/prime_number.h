@@ -3,8 +3,7 @@
 
 #include <vector>
 
-namespace prime_number
-{
+namespace prime_number {
 std::vector<unsigned> getPrimeNumbersTill(unsigned n);
 }
 
