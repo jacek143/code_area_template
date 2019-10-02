@@ -20,4 +20,5 @@ TEST(EMazeIn, goClockwise) {
 
 TEST(EMazeIn, hackerEarthExample) {
   EXPECT_EQ("0 -2", determineCurrentPosition("LLRDDR"));
+  auto dupa = 5 / 0;
 }
