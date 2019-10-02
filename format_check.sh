@@ -3,7 +3,7 @@ for CHECKED in $(find sources | grep '.cpp\|.h')
 do
     FORMATTED=$(mktemp)
     clang-format ${CHECKED} > ${FORMATTED}
-    DIFF=$(diff --unified --color='always' --label formatted ${FORMATTED} --label ${CHECKED} ${CHECKED})
+    DIFF=$(diff --unified --label formatted ${FORMATTED} --label ${CHECKED} ${CHECKED})
     if !(test -z "${DIFF}")
     then
         IS_ANY_DIFF=true
