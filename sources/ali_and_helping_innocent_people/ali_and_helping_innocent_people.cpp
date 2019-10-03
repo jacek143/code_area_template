@@ -15,16 +15,23 @@ bool ali_and_helping_innocent_people::isTagValid(const string &tag) {
 
 bool isLetterValid(const string &tag) {
   const string vowels = "AEIOUY";
-  auto letter = tag[2];
+  auto letter = tag.at(2);
   return vowels.find(letter) == string::npos;
 }
 
 bool areDigitsValid(const string &tag) {
   auto digits = extract_digits(tag);
-  for (unsigned i = 0; i < digits.size() - 1; i++) {
-    if ((digits[i] + digits[i + 1]) % 2) {
-      return false;
-    }
+  if ((digits.at(0) + digits.at(1)) % 2) {
+    return false;
+  }
+  if ((digits.at(2) + digits.at(3)) % 2) {
+    return false;
+  }
+  if ((digits.at(3) + digits.at(4)) % 2) {
+    return false;
+  }
+  if ((digits.at(5) + digits.at(6)) % 2) {
+    return false;
   }
   return true;
 }

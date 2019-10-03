@@ -18,6 +18,7 @@ public:
 TEST_F(AliAndHelpingInnocentPeople, validTag) {
   EXPECT_TRUE(isTagValid("22X222-22"));
   EXPECT_TRUE(isTagValid("33F759-13"));
+  EXPECT_TRUE(isTagValid("13X357-22"));
 }
 
 TEST_F(AliAndHelpingInnocentPeople, invalidDueToVowels) {
