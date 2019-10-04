@@ -6,8 +6,7 @@ using std::string;
 using std::stringstream;
 using std::to_string;
 
-unsigned getTotalMinutes(Time start, Time end);
-string duration::computeDuration(Time start, Time end);
+static unsigned getTotalMinutes(Time start, Time end);
 
 string duration::computeDuration(Time start, Time end) {
   auto total_duration_in_minute =

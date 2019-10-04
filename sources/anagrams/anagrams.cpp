@@ -6,7 +6,7 @@ using std::string;
 
 unsigned anagrams::getNumberOfDeletionsToMakeAnagrams(string a, string b) {
   unsigned deletions = 0;
-  while (a.size() > 0) {
+  while (not a.empty()) {
     auto index_in_b = b.find(a.back());
     a.pop_back();
     if (index_in_b == string::npos) {

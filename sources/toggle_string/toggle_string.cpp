@@ -8,7 +8,7 @@ using std::toupper;
 
 string toggle_string::toggleString(string input) {
   for (auto &&c : input) {
-    c = islower(c) ? toupper(c) : tolower(c);
+    c = static_cast<bool>(islower(c)) ? toupper(c) : tolower(c);
   }
   return input;
 }

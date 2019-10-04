@@ -21,16 +21,16 @@ bool isLetterValid(const string &tag) {
 
 bool areDigitsValid(const string &tag) {
   auto digits = extract_digits(tag);
-  if ((digits.at(0) + digits.at(1)) % 2) {
+  if ((digits.at(0) + digits.at(1)) % 2 != 0) {
     return false;
   }
-  if ((digits.at(2) + digits.at(3)) % 2) {
+  if ((digits.at(2) + digits.at(3)) % 2 != 0) {
     return false;
   }
-  if ((digits.at(3) + digits.at(4)) % 2) {
+  if ((digits.at(3) + digits.at(4)) % 2 != 0) {
     return false;
   }
-  if ((digits.at(5) + digits.at(6)) % 2) {
+  if ((digits.at(5) + digits.at(6)) % 2 != 0) {
     return false;
   }
   return true;
