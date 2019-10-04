@@ -4,7 +4,7 @@
 #include <string>
 
 namespace anagrams {
-            unsigned getNumberOfDeletionsToMakeAnagrams(std::string a, std::string b);
+unsigned getNumberOfDeletionsToMakeAnagrams(std::string a, std::string b);
 }
 
 #endif

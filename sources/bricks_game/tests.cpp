@@ -4,18 +4,7 @@
 using bricks_game::determineWinner;
 using std::string;
 
-TEST(BricksGame, oneBrickGame) { 
-
-
-
-
-
-
-
-
-
-
-EXPECT_EQ("Patlu", determineWinner(1)); }
+TEST(BricksGame, oneBrickGame) { EXPECT_EQ("Patlu", determineWinner(1)); }
 
 TEST(BricksGame, twoBrickGame) { EXPECT_EQ("Motu", determineWinner(2)); }
 
