@@ -1,6 +1,6 @@
 #include "find_product.h"
-#include <cmath>
 #include "gtest/gtest.h"
+#include <cmath>
 
 using find_product::computeProductModulo;
 using std::vector;
