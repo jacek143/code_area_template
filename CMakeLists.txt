@@ -14,3 +14,6 @@ target_link_libraries(kata gtest_main)
 # RUN UNIT TESTS
 add_custom_target(unit_tests ALL COMMAND ./kata)
 add_dependencies(unit_tests kata)
+
+# LINT
+add_custom_target(lint COMMAND ./lint.sh ${SRC_FILES} WORKING_DIRECTORY ..)

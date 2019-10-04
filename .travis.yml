@@ -1,6 +1,10 @@
 language: cpp
 
 script:
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make lint
+ - cd ..
  - ./format_check.sh
- - ./lint.sh
  - ./unit_tests.sh
