@@ -2,6 +2,7 @@
 IS_ANY_DIFF=false
 for CHECKED in $@
 do
+    printf "checking formatting %s\n" ${CHECKED}
     FORMATTED=$(mktemp)
     clang-format ${CHECKED} > ${FORMATTED}
     DIFF=$(diff --unified --label formatted ${FORMATTED} --label ${CHECKED} ${CHECKED})
