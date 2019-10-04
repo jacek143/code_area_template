@@ -1,5 +1,5 @@
 #include "find_product.h"
-#include "math.h"
+#include <cmath>
 #include "gtest/gtest.h"
 
 using find_product::computeProductModulo;
