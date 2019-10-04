@@ -1,7 +1,6 @@
 #include "lift_queries.h"
 #include "gtest/gtest.h"
 
-using lift_queries::determineLift;
 using lift_queries::Lifts;
 using std::string;
 

@@ -3,7 +3,6 @@
 #include "gtest/gtest.h"
 
 using prime_number::getPrimeNumbersTill;
-using std::vector;
 using ::testing::ElementsAre;
 
 TEST(PrimeNumber, returnsNothingFor1) {

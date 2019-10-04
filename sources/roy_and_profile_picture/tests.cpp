@@ -2,7 +2,6 @@
 #include "gtest/gtest.h"
 
 using roy_and_profile_picture::checkPicture;
-using roy_and_profile_picture::PictureSize;
 using roy_and_profile_picture::Result;
 using std::string;
 

@@ -3,7 +3,6 @@
 #include <cmath>
 
 using find_product::computeProductModulo;
-using std::vector;
 
 TEST(FindProduct, simple) {
   EXPECT_EQ(120, computeProductModulo({1, 2, 3, 4, 5}));
