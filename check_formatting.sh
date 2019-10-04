@@ -1,5 +1,6 @@
+#!/bin/bash
 IS_ANY_DIFF=false
-for CHECKED in $(find sources | grep '.cpp\|\.h')
+for CHECKED in $@
 do
     FORMATTED=$(mktemp)
     clang-format ${CHECKED} > ${FORMATTED}
