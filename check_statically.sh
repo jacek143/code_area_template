@@ -1,6 +1,6 @@
 #!/bin/bash
 IS_ANY_ERROR=false
-COMMON_CHECKS=modernize-*,cppcoreguidelines-*,readability-*,bugprone-*,clang-analyzer-*,google-*,hicpp-*,misc-*
+COMMON_CHECKS=modernize-*,cppcoreguidelines-*,readability-*,bugprone-*,clang-analyzer-*,google-*,hicpp-*,misc-*,performance-*
 for FILE_TO_CHECK in $@
 do
     printf "checking statically %s\n" ${FILE_TO_CHECK}

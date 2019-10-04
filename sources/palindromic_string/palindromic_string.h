@@ -4,7 +4,7 @@
 #include <string>
 
 namespace palindromic_string {
-bool isPalindrome(std::string potential_palindrome);
+bool isPalindrome(const std::string &potential_palindrome);
 }
 
 #endif
