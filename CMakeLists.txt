@@ -8,6 +8,7 @@ file(GLOB SRC_FILES sources/*/*.cpp)
 file(GLOB INC_FILES sources/*/*.h)
 
 add_executable(unit_tests ${SRC_FILES})
+target_compile_options(unit_tests PRIVATE -Werror -Wall -Wextra -pedantic)
 target_include_directories(unit_tests PUBLIC 
     ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR}
     ${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
