@@ -6,18 +6,14 @@ add_subdirectory(./googletest)
 
 file(GLOB SRC_FILES sources/*/*.cpp)
 file(GLOB INC_FILES sources/*/*.h)
-file(GLOB ALL_FILES sources/*/*)
-
-add_custom_target(format COMMAND clang-format -i ${ALL_FILES} WORKING_DIRECTORY ..)
 
 add_executable(unit_tests ${SRC_FILES})
-add_dependencies(unit_tests format)
 target_include_directories(unit_tests PUBLIC 
     ${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR}
     ${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 target_link_libraries(unit_tests gtest_main)
 
-add_custom_target(check_formatting COMMAND ./check_formatting.sh ${ALL_FILES} WORKING_DIRECTORY ..)
+add_custom_target(check_formatting COMMAND ./check_formatting.sh ${SRC_FILES} ${INC_FILES} WORKING_DIRECTORY ..)
 add_custom_target(check_statically COMMAND ./check_statically.sh ${SRC_FILES} WORKING_DIRECTORY ..)
 add_custom_target(check_unit_tests COMMAND ./unit_tests DEPENDS unit_tests)
 add_custom_target(check_everything DEPENDS check_formatting check_statically check_unit_tests)
