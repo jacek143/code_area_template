@@ -1,7 +1,11 @@
-# Code Area Template
+# Kata exercises
 [![Build Status](https://travis-ci.org/jacek143/kata.svg?branch=master)](https://travis-ci.org/jacek143/kata)
 
-This project contains my solutions to different kata exercises:
+Quoting from wikipedia *"A code kata is an exercise in programming which helps programmers hone their skills through practice and repetition."*
+
+This repository contains my solutions to some problems. It also demonstrates how to use a few popular programming tools: CMake, Travis CI, clang-tidy, clang-format and googletest.
+
+## List of solved problems
  - [Prime Number](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/prime-number-8/)
  - [Seating Arrangement](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/seating-arrangement-1/)
 - [Anagrams](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/anagrams-651/)
