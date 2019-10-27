@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.9.2)
+project(kata)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
