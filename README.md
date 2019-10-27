@@ -25,3 +25,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Ali and Helping innocent people](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/cartag-948c2b02/)
 - [Duration](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/duration/)
 - [Book of Potion making](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/sum-it-if-you-can-4867f851/)
+- [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/cpp)
