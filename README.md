@@ -28,3 +28,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95/train/cpp)
 - [Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f/train/cpp)
 - [parseInt() reloaded](https://www.codewars.com/kata/parseint-reloaded/train/cpp)
+- [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c/train/cpp)
