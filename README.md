@@ -30,3 +30,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [parseInt() reloaded](https://www.codewars.com/kata/parseint-reloaded/train/cpp)
 - [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c/train/cpp)
 - [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/cpp)
+- [Multiplying numbers as strings](https://www.codewars.com/kata/55911ef14065454c75000062/train/cpp)
