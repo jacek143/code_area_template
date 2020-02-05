@@ -6,8 +6,8 @@ Quoting from wikipedia *"A code kata is an exercise in programming which helps p
 This repository contains my solutions to some problems. It also demonstrates how to use a few popular programming tools: CMake, Travis CI, clang-tidy, clang-format and googletest.
 
 ## List of solved problems
- - [Prime Number](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/prime-number-8/)
- - [Seating Arrangement](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/seating-arrangement-1/)
+- [Prime Number](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/prime-number-8/)
+- [Seating Arrangement](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/seating-arrangement-1/)
 - [Anagrams](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/anagrams-651/)
 - [Factorial!](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-factorial/)
 - [Palindromic String](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/palindrome-check-2/)
@@ -31,3 +31,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c/train/cpp)
 - [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/cpp)
 - [Multiplying numbers as strings](https://www.codewars.com/kata/55911ef14065454c75000062/train/cpp)
+- [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/cpp)
