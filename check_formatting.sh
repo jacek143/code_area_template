@@ -4,7 +4,7 @@ for CHECKED in $@
 do
     printf "checking formatting %s\n" ${CHECKED}
     FORMATTED=$(mktemp)
-    clang-format ${CHECKED} > ${FORMATTED}
+    clang-format-7 ${CHECKED} > ${FORMATTED}
     DIFF=$(diff --unified --label formatted ${FORMATTED} --label ${CHECKED} ${CHECKED})
     if !(test -z "${DIFF}")
     then

@@ -1,4 +1,9 @@
 language: cpp
+dist: bionic
+
+before_install:
+ - sudo apt-get install -y clang-tidy-7
+ - sudo apt-get install -y clang-format-7
 
 script:
  - mkdir build

@@ -7,5 +7,5 @@ do
     if [[ ${FILE_TO_CHECK} == *"/tests.cpp" ]]; then
         MODIF=''',-cppcoreguidelines-owning-memory,-*-special-member-functions'''
     fi
-    clang-tidy -p build --quiet --warnings-as-errors=* -checks=${COMMON_CHECKS}${MODIF} ${FILE_TO_CHECK}
+    clang-tidy-7 -p build --quiet --warnings-as-errors=* -checks=${COMMON_CHECKS}${MODIF} ${FILE_TO_CHECK}
 done
