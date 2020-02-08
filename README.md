@@ -33,3 +33,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Multiplying numbers as strings](https://www.codewars.com/kata/55911ef14065454c75000062/train/cpp)
 - [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/cpp)
 - [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
