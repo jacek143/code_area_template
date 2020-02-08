@@ -2,7 +2,7 @@
 
 using std::vector;
 
-vector<int> merge_sort(vector<int> to_sort) {
+vector<int> merge_sorting::merge_sort(vector<int> to_sort) {
   if (to_sort.size() <= 1) {
     return to_sort;
   }
@@ -11,7 +11,7 @@ vector<int> merge_sort(vector<int> to_sort) {
   return merge(merge_sort(left), merge_sort(right));
 }
 
-vector<int> merge(vector<int> left, vector<int> right) {
+vector<int> merge_sorting::merge(vector<int> left, vector<int> right) {
   vector<int> result = {};
   while (not left.empty() and not right.empty()) {
     if (left.at(0) <= right.at(0)) {

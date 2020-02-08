@@ -2,6 +2,8 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
+using merge_sorting::merge;
+using merge_sorting::merge_sort;
 using testing::ElementsAre;
 
 TEST(CheckIfMergeSortWorks, forZeroElementCollection) {
