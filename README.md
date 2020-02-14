@@ -34,3 +34,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Sum Strings as Numbers](https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/cpp)
 - [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+- [Pairs with same difference](sources/pairs_with_same_difference/README.md)
