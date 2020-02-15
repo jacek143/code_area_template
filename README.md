@@ -36,3 +36,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 - [Pairs with same difference](sources/pairs_with_same_difference/README.md)
 - [Quadratic Integer Equation Solver](sources/quadratic_integer_equation_solver/README.md)
+- [Vowel Game](https://www.hackerearth.com/practice/basic-programming/complexity-analysis/time-and-space-complexity/practice-problems/algorithm/vowel-game-f1a1047c/)
