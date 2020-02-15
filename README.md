@@ -35,3 +35,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 - [Pairs with same difference](sources/pairs_with_same_difference/README.md)
+- [Quadratic Integer Equation Solver](sources/quadratic_integer_equation_solver/README.md)
