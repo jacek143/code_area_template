@@ -20,3 +20,18 @@ TEST(CheckIfVowelGame, worksForTypicalExample) {
 TEST(CheckIfVowelGame, canCountVowelsInSingleWord) {
   EXPECT_EQ(3, count_vowels("foobar"));
 }
+
+TEST(CheckIfVowelGame, worksForReallyBigInput) {
+  EXPECT_EQ(7811003,
+            count_vowels_in_all_substrings(
+                "DXqzxJrCnsAUSmkUkQCedQTcyYHIUPixMbyLKQoAKOuDDgxNWBRCrmErkNafCK"
+                "eQnfBYxPahgumJclYAMPcFbizNVbuxnbnBgrbDIbmqXbZZOzzdQeItmJhiKdFY"
+                "evbMMcRWdGnajOZXoaaeGlyTUhbhkifRfgftKzqNfDNQToNhQqmxBmqXtTefDL"
+                "WJtEEddUsiZfYTVnCMDqjGCbgxUMDZazkVdPZglTQlZqGUEKiJbrSfUYDOKgqK"
+                "hAGNphTBCmoBCwYIggUJaMPUmUlyadLhDTwTCqWeeMiiigtQOncqBtNNnANPDy"
+                "ygrVBTNxYRjIBTOUmehoXkHmXwMLlpLlXdgbyvyYmkGOdWIpDsfACMMcKapxRa"
+                "JOFrPeNQcZClphhAZKueMWtaAdaPBtQMKvdbbQtGsVRjdAJcNFgzezcEfEWiYo"
+                "UIlXlnqFTIAKtDMFhzkoZopDvWhreHFARQadFqIyAiKToxyXWllxzdCUBKNGrU"
+                "IjLImqAwragDwWawUzHHyhKbDOnTuENEpandTpzkSipoeqKYrUGrbSsgGFBCMp"
+                "hDRWHKlIwdQMTVEgvxaDODwJlEQNhCEQIvMpgzzefqQANWGKtGoiL"));
+}
