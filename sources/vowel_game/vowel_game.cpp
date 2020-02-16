@@ -1,25 +1,23 @@
 #include "vowel_game.h"
-#include <algorithm>
 #include <unordered_set>
 
-using std::count_if;
 using std::string;
 using std::unordered_set;
 
-unsigned vowel_game::count_vowels_in_all_substrings(const string &word) {
-  unsigned total_vowels = 0;
-  for (unsigned substr_size = 1; substr_size <= word.size(); substr_size++) {
-    for (unsigned i = 0; i <= word.size() - substr_size; i++) {
-      total_vowels += count_vowels(word.substr(i, substr_size));
-    }
-  }
-  return total_vowels;
-}
-
-unsigned vowel_game::count_vowels(string word) {
+static bool is_vowel(char character) {
   const unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u',
                                    'A', 'E', 'I', 'O', 'U'};
-  return count_if(begin(word), end(word), [&vowels](char character) {
-    return vowels.find(character) != end(vowels);
-  });
+  return vowels.find(character) != end(vowels);
+}
+
+uint64_t vowel_game::count_vowels_in_all_substrings(const string &word) {
+  uint64_t total_number_of_vowels = 0;
+  uint64_t increase_of_vowels_caused_by_new_character = 0;
+  for (uint64_t i = 0; i < word.size(); i++) {
+    if (is_vowel(word[i])) {
+      increase_of_vowels_caused_by_new_character += (i + 1);
+    }
+    total_number_of_vowels += increase_of_vowels_caused_by_new_character;
+  }
+  return total_number_of_vowels;
 }

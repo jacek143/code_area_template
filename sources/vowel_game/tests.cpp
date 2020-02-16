@@ -1,7 +1,6 @@
 #include "vowel_game.h"
 #include "gtest/gtest.h"
 
-using vowel_game::count_vowels;
 using vowel_game::count_vowels_in_all_substrings;
 
 TEST(CheckIfVowelGame, worksForNoVowels) {
@@ -15,10 +14,6 @@ TEST(CheckIfVowelGame, worksForSingleVowel) {
 
 TEST(CheckIfVowelGame, worksForTypicalExample) {
   EXPECT_EQ(16, count_vowels_in_all_substrings("baceb"));
-}
-
-TEST(CheckIfVowelGame, canCountVowelsInSingleWord) {
-  EXPECT_EQ(3, count_vowels("foobar"));
 }
 
 TEST(CheckIfVowelGame, worksForReallyBigInput) {
