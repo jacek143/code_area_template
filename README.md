@@ -39,3 +39,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Vowel Game](https://www.hackerearth.com/practice/basic-programming/complexity-analysis/time-and-space-complexity/practice-problems/algorithm/vowel-game-f1a1047c/)
 - [Is Unique](sources/is_unique/README.md)
 - [The Almond Problem](https://www.hackerearth.com/problem/algorithm/the-almond-problem-1ca18502/)
+- [Check String Permutation](sources/check_string_permutation/README.md)
