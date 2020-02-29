@@ -41,3 +41,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [The Almond Problem](https://www.hackerearth.com/problem/algorithm/the-almond-problem-1ca18502/)
 - [Check String Permutation](sources/check_string_permutation/README.md)
 - [URLify in place](sources/urlify_in_place/README.md)
+- [Palindrome Permutation](sources/palindrome_permutation/README.md)
