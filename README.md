@@ -42,3 +42,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [Check String Permutation](sources/check_string_permutation/README.md)
 - [URLify in place](sources/urlify_in_place/README.md)
 - [Palindrome Permutation](sources/palindrome_permutation/README.md)
+- [Dislikes and Party](https://www.hackerearth.com/problem/algorithm/dislikes-and-party-567b9605/)
