@@ -43,3 +43,4 @@ This repository contains my solutions to some problems. It also demonstrates how
 - [URLify in place](sources/urlify_in_place/README.md)
 - [Palindrome Permutation](sources/palindrome_permutation/README.md)
 - [Dislikes and Party](https://www.hackerearth.com/problem/algorithm/dislikes-and-party-567b9605/)
+- [Annoying Chemistry](https://www.hackerearth.com/problem/algorithm/annoying-chemistry-f5fb9556/)
